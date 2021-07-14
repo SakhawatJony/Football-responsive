@@ -1,0 +1,177 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* ------------------------------------
+home-page-main-section styles start
+-------------------------------------- */
+#main-home-page{
+    background-color: #2D25A0;
+      
+}
+main{
+    width: 100%;
+   
+}
+.home-page{
+    display: flex;
+    height: 660px;
+    align-items: center;
+    margin-left: 156px;
+    margin-right: 140px;
+    margin-bottom: 50px;
+   
+}
+.home-left{
+    width: 48%;
+    padding-right: 2%;
+}
+.home-left h1{
+    font-weight: 500;
+    font-size: 64px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    margin-top: 00px;
+}
+.home-left button{
+    background-color: #E02C6D;
+    width: 168px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+      
+}
+.home-btn:hover{
+    color: rgb(8, 15, 2);
+    background-image: linear-gradient(rgba(233, 233, 38, 0.651), rgb(255, 60, 0));
+    border-radius: 20px;
+    transition: 2s ease-in-out;
+}
+.home-btn i{
+padding-left: 15px;
+}
+.home-right{
+    width: 45%;
+    padding-left: 5%;
+}
+.home-right img{
+    width: 556px;
+    
+}
+/* ------------------------------------
+home-page-main-section styles end
+-------------------------------------- */
+
+
+/*--------------------------
+ players list styles start
+----------------------------*/
+#player-page{
+ 
+  
+  
+
+
+}
+.players{
+    margin-left: 170px;
+    margin-right: 215px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:30px;
+       
+}
+
+
+.player{
+    
+    width: 300px;
+    box-shadow: 3px 3px 3px 3px #dfdede;
+    padding: 15px;
+       
+}
+
+.player-banner img{
+    width: 300px;
+    height: 256px;
+    
+}
+.player-info h2{
+    font-weight: 700;
+    font-size: 28px;
+    color: #18191F;
+    line-height: 30px;
+     
+}
+.player-info p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #6C6C6C;
+}
+
+/*--------------------------
+ players list styles end
+----------------------------*/
+
+
+/*----------------------------------------
+ sports website footer styles start       
+ ----------------------------------------  */
+.sports-info{
+    margin-left: 475px;
+    margin-right: 482px;
+    margin-bottom: 64px;
+  
+    
+    
+}
+.sports-logo{
+    display: flex;
+    flex-direction: column;
+    height: 213px;
+    justify-content: flex-end;
+    align-items: center;
+}
+ .sports-logo img{
+    width: 484px;
+   
+
+ }
+ .sports-icoc{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 32px;
+     padding: 10px;
+     
+    
+ }
+
+ 
+
+ .sports-icoc i{
+   padding:10px; 
+   margin: 7px;
+   font-size: 16px;
+   color:#969BAB;
+   background-color:#aeb2c03d;
+   border-radius: 100%;
+   
+}
+
+
+ .sports-info p{
+     text-align: center;
+     
+ }
+
+ /*----------------------------------------
+ sports website footer styles end     
+ ----------------------------------------  */
+
+
+  
