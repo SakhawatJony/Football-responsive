@@ -34,7 +34,7 @@ home-page-main-section styles start
     margin-bottom: 25px;
     margin-top: 00px;
 }
-.home-left button{
+.home-left button, .button-btn{
     background-color: #E02C6D;
     width: 168px;
     height: 44px;
@@ -79,20 +79,23 @@ home-page-main-section styles end
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap:30px;
-    text-align: center;
     align-items: center;
+    text-align: justify;
  
        
 }
 
 
 .player{
-    
+    height: 474px;
     width: 330px;
     box-shadow: 3px 3px 3px 3px #dfdede;
     padding: 15px;
     align-items: center;
     justify-content: center;
+    padding-bottom: 20px;
+    
+    
        
 }
 
@@ -111,13 +114,46 @@ home-page-main-section styles end
 }
 .player-info p{
     font-size: 16px;
-    line-height: 20px;
-    color: #6C6C6C;
+    line-height: 26px;
+    color:#6C6C6C;
 }
 
 /*--------------------------
  players list styles end
 ----------------------------*/
+/* ------------------
+  copa-2021 match 
+--------------------*/
+#copa-2021{
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.copa-america{
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+.copa-america-history{
+    width: 42%;
+    padding-right: 8%;
+
+}
+.copa-america-history h1{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom:0;
+    margin-top: 20px;
+}
+.copa-america-history p{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 400px;
+    padding-right:100px ;
+}
+
+/* -----------------
+copa-2021 match end
+--------------------- */
 
 
 /*----------------------------------------
@@ -175,7 +211,7 @@ home-page-main-section styles end
 /*----------------------
     tableat devices 
 -------------------------*/
-  @media (max-width:768px) {
+@media (max-width:768px) {
 
     .home-page{
         display: flex;
@@ -204,41 +240,72 @@ home-page-main-section styles end
       .players{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        padding: 15px;
-        margin-left: 30px;
+        padding: 10px;
+        margin-left: 20px;
         margin-right: 0;
         grid-gap: 10px;
         position: relative;
       }
       .player{
+          height: ;
           width: 70%;
-          padding: 15px;
+          padding: 20px;
           margin-left: 30px;
          
       }
-      .sports-info {
+      .sports-info{
         margin-left: 0; 
         margin-right: 0;
         margin-bottom: 0;
         text-align: center;
-    }
-      
+
+      }
       
   }
-  /*------------------------
-    mobail devices
-  --------------------------*/
+  /* mobail device */
 
   @media (max-width:360px) {
-    .home-left h1{
+    #main-home-page{
+        background-color: #2d25a0;
+        padding-left: 15px;
+        padding-right:15px; 
+        margin: 0px;
+        width: 100%;
         
-        font-size: 15px;
-
+    }
+    .home-page{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        height: 100%;
+        margin: 0px;
+        align-items:flex-start ;
+        height: 700px;
+       
+    }
+    .home-left{
+        width:80%;
+        padding-right: 10%; 
+        margin-top: 100px;
+        
+    }
+    .home-left h1{
+        margin: 0px;
+        font-size: 36px;
+        word-wrap: break-word;
+    }
+    .home-left .home-btn{
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+    .home-right{
+        width:50%;
+        padding: 0%;
+        margin:0px; 
     }
     .home-right img{
-        margin-left: 100px;
-        width: 160px;
-        
+        width: 330px;
+        height: 300px;
     }
     .players{
         display: grid;
